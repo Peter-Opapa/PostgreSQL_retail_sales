@@ -41,6 +41,7 @@ CREATE TABLE retail_sales
 
 ### 2. Data Exploration & Cleaning
 -**Checking for successful importation**:I checked if every data in the table was loaded from Excel(CSV file)
+
 -**Renaming Columns**:I changed two column names for ease
 - **Null Value Check**: I Checked for any null values in the dataset and deleted the records with missing data.
 - **Total number of Sales**: Determine the total number of sales in the dataset.
