@@ -223,11 +223,12 @@ FROM(SELECT *,
 ## Conclusion
 
 This retail sales analysis project was conducted using PostgreSQL to perform structured data exploration and uncover key business insights. By writing optimized SQL queries, I was able to:
-.Analyze revenue trends across products, customers, and time periods
 
-.Identify top-performing products and high-value customers
+- Analyze revenue trends across products, customers, and time periods
 
-.Extract average customer spending and segment purchase behaviors
+- Identify top-performing products and high-value customers
+
+- Extract average customer spending and segment purchase behaviors
 
 .Perform data cleaning and transformation directly in SQL
 
