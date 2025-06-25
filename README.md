@@ -17,7 +17,7 @@ In this project, I have demonstrated my PostgreSQL skills and techniques typical
 
 ### 1. Database Setup
 
-- **Database Creation**: I created a database named `PostgreSQL_Sales_Project`.
+- **Database Creation**: I created a database named `PostgreSQL_Sales_Project` Using pgAdmin4.
 - **Table Creation**: I created a table named `retail_sales` to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit,cogs(Cost of goods), and total sale amount.
 
 ```sql
@@ -40,9 +40,8 @@ CREATE TABLE retail_sales
 ```
 
 ### 2. Data Exploration & Cleaning
--**Checking for successful importation**:I checked if every data in the table was loaded from Excel(CSV file)
-
--**Renaming Columns**:I changed two column names for ease
+-**Checking for successful importation**: I checked if every data in the table was loaded from Excel(CSV file)
+-**Renaming Columns**: I changed two column names for ease
 - **Null Value Check**: I Checked for any null values in the dataset and deleted the records with missing data.
 - **Total number of Sales**: Determine the total number of sales in the dataset.
 - **Customer Count**: I wrote a query to find out how many unique customers are in the dataset.
