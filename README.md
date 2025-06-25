@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-**Project Title**: Retail Sales Analysis  
-**Level**: Beginner  
+**Project Title**: Retail Sales Analysis   
 **Database**: `PostgreSQL_Sales_Project`
 
 In this project, I have demonstrated my PostgreSQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries.
@@ -230,8 +229,8 @@ This retail sales analysis project was conducted using PostgreSQL to perform str
 
 - Extract average customer spending and segment purchase behaviors
 
-.Perform data cleaning and transformation directly in SQL
+- Perform data cleaning and transformation directly in SQL
 
 This project demonstrates my ability to work with relational databases, write efficient SQL queries, and use SQL as a tool for real-world data analysis. It also showcases foundational skills in data wrangling, aggregation, and business-focused insights — essential for data analyst and data engineering roles
 
-## Author - Peter Opapa@2025
+## Author - Peter Opapa
