@@ -1,4 +1,4 @@
-##Retail Sales Analysis PostgreSQL Project
+# Retail Sales Analysis PostgreSQL Project
 
 ## Project Overview
 
