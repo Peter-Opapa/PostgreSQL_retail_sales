@@ -6,12 +6,12 @@
 **Database**: `PostgreSQL_Sales_Project`
 
 In this project, I have demonstrated my PostgreSQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries.
-## Objectives
+## Achievements
 
-1. **To Set up a retail sales database**: I Created and populated a retail sales database with the provided sales data.
-2. **To Clean Data**: I Identified and removed all records with missing or null values.
-3. **To utilize Exploratory Data Analysis (EDA)**: I Performed basic exploratory data analysis to understand the dataset.
-4. **To analyse Sales and Revenue**: I used PostgreSQL to answer specific business questions and derived insights from the sales data.
+1. I Created and populated a retail sales database with the provided sales data.
+2. I Identified and removed all records with missing or null values.
+3. I Performed basic exploratory data analysis to understand the dataset.
+4. I used PostgreSQL to answer specific business questions and derived insights from the sales data.
 
 ## Project Structure
 
@@ -186,9 +186,9 @@ WHERE rank=1
 SELECT *,
    CASE
        WHEN EXTRACT(HOUR FROM sale_time)<12 THEN 'Morning'
-	   WHEN EXTRACT(HOUR FROM sale_time)>12 AND EXTRACT(HOUR FROM sale_time)<17 THEN 'Afternoon'
-	   ELSE 'Evening'
-	END AS shift
+       WHEN EXTRACT(HOUR FROM sale_time)>12 AND EXTRACT(HOUR FROM sale_time)<17 THEN 'Afternoon'
+       ELSE 'Evening'
+   END AS shift
 FROM retail_sales
 ```
 11. **Total sales by time of the day ranked in descending order**:
@@ -197,9 +197,9 @@ SELECT shift,ROUND(AVG(total_sale),2)AS average_sale
 FROM(SELECT *,
    CASE
        WHEN EXTRACT(HOUR FROM sale_time)<12 THEN 'Morning'
-	   WHEN EXTRACT(HOUR FROM sale_time)>12 AND EXTRACT(HOUR FROM sale_time)<17 THEN 'Afternoon'
-	   ELSE 'Evening'
-	END AS shift
+       WHEN EXTRACT(HOUR FROM sale_time)>12 AND EXTRACT(HOUR FROM sale_time)<17 THEN 'Afternoon'
+       ELSE 'Evening'
+    END AS shift
 	FROM retail_sales)sub
 	GROUP BY shift
 	ORDER BY average_sale DESC
@@ -218,18 +218,6 @@ FROM(SELECT *,
 - **Sales & Revenue Analysis**: A detailed report summarizing total sales, customer demographics, and category performance.
 - **Time-Based Trend Analysis**: Insights into sales trends across different months and shifts.
 - **Customer Behavior**: Reports on top customers and unique customer counts per category.
-
-## Conclusion
-
-This retail sales analysis project was conducted using PostgreSQL to perform structured data exploration and uncover key business insights. By writing optimized SQL queries, I was able to:
-
-- Analyze revenue trends across products, customers, and time periods
-
-- Identify top-performing products and high-value customers
-
-- Extract average customer spending and segment purchase behaviors
-
-- Perform data cleaning and transformation directly in SQL
 
 This project demonstrates my ability to work with relational databases, write efficient SQL queries, and use SQL as a tool for real-world data analysis. It also showcases foundational skills in data wrangling, aggregation, and business-focused insights — essential for data analyst and data engineering roles
 
