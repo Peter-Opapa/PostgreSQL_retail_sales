@@ -221,4 +221,4 @@ FROM(SELECT *,
 
 This project demonstrates my ability to work with relational databases, write efficient SQL queries, and use SQL as a tool for real-world data analysis. It also showcases foundational skills in data wrangling, aggregation, and business-focused insights — essential for data analyst and data engineering roles
 
-## Author - Peter Opapa
+**Author**: Peter Opapa © 2025
